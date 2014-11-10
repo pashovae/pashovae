@@ -1,0 +1,33 @@
+.menu
+{
+    display: block;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 925px;
+    height: 42px;
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+ul
+{
+    margin: 0px;
+    padding: 10px 0px 0px 68px;
+}
+
+li
+{
+    display: inline-block;
+    margin-right: 77px;
+}
+
+a
+{
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    color: gray;
+}

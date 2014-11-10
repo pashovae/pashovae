@@ -1,0 +1,122 @@
+body
+{
+    font: Tahoma;
+    position: relative;
+}
+
+#cats
+{
+    border-bottom: 2px solid blue;
+    font: 34px Arial;
+    text-align: center;
+    width: 99%;
+    margin-bottom: 37px;
+    padding-left: 9px;
+}
+
+.container
+{
+    height: 500px;
+    width: 780px;
+    position: absolute;
+    left: 50%;
+    margin-left: -390px;
+}
+
+.cats
+{
+    position: relative;
+    width: 220px;
+    height: 203px;
+    text-align: center;
+    display: block;
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.cats>p
+{
+    margin-top: 0px; 
+}
+
+.img
+{
+    width: 160px;
+    height: 160px;
+}
+
+.first
+{
+    background-image: url(../images/texture1.jpg);
+
+}
+
+.second
+{
+    background-image: url(../images/texture3.jpg);
+}
+
+.third
+{
+    background-image: url(../images/texture2.jpg);
+}
+
+.first, .second, .third{
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#image_link
+{
+    position: relative;
+    left: 50%;
+    width: 300px;
+    height: 55px;  
+    text-align: center;
+    background-image: url(../images/button.png);
+    background-repeat: no-repeat;
+    margin-left: -150px;
+    padding-top: 18px;
+    clear: both;
+}
+
+#image_link:hover
+{
+    background-image: url(../images/button-over.png);
+}
+
+a
+{
+    color: black;
+    text-decoration: none;  
+    font: 16px bold;  
+}
+
+#liner
+{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    
+    width: 45px;
+    height: 38px;
+    
+    border: 2px solid #FFD700;
+    border-radius: 15px;
+    
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #BC8F8F;
+    color: white;
+    
+    padding-top: 5px;
+    margin-top: -25px;
+    margin-right: -24px;
+}
