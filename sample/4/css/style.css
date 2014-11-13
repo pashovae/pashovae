@@ -1,0 +1,137 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+#back
+{
+	height: 319px;
+	width: 348px;
+	background: url(../images//task.png);
+	position: relative;
+	left: 50px;
+	top: 50px;
+	visibility: visible;
+}
+
+#container
+{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	height: 320px;
+	width: 340px;
+	display: block;
+	padding-left: 10px;
+}
+
+.content
+{
+	padding-left: 50px;
+	margin-top: 15px;
+	height: 285px;
+	border-left: 1px solid #666;
+}
+
+h1
+{
+	font: 23px Arial;
+	margin-bottom: 12px;
+}
+
+ul
+{
+	list-style: none;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+li
+{
+	height: 30px;
+	width: 177px;
+	display: inline-block;
+	padding-top: 13px;
+	padding-left: 45px;
+	margin-left: 0px;
+	border-bottom: 1px dashed #666;
+}
+
+li:first-child
+{
+	padding-top: 17px;
+	height: 26px;
+}
+
+li:last-child
+{
+	border: none;
+	padding-top: 16px;
+	letter-spacing: 0.3px;
+    line-height: 25px;
+	height: 70px;
+}
+
+li:last-child>span
+{
+	letter-spacing: 1.7px;
+}
+
+.tel
+{
+	background: url(../images/phone.png) no-repeat;
+	background-position: left;
+	height: 30px;
+	width:30px;
+	display:block;
+	margin-left: -38px;
+	margin-top: -10px;
+	float: left;
+}
+
+.fax
+{
+	background: url(../images/fax.png) no-repeat;
+	background-position: left;
+	height: 30px;
+	width:30px;
+	display:block;
+	margin-left: -44px;
+	margin-top: -7px;
+	float: left;
+}
+
+.email
+{
+	background: url(../images/email.png) no-repeat;
+	background-position: left;
+	height: 30px;
+	width:30px;
+	display:block;
+	margin-left: -45px;
+	margin-top: -7px;
+	float: left;
+}
+
+.adress
+{
+	background: url(../images/adress.png) no-repeat;
+	background-position: left;
+	height: 30px;
+	width:30px;
+	display:block;
+	margin-left: -45px;
+	margin-top: -8px;
+	float: left;
+}
+.without
+{
+    border: none;
+}
