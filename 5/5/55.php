@@ -1,7 +1,7 @@
 ﻿<?php
     if(isset($_GET['ident']))
 	{
-        $ident=$_GET['ident'];
+        $ident = $_GET['ident'];
     }
     else
 	{
@@ -18,7 +18,7 @@
         die('Последовательность не идентификатор');
     }
   
-    for($i=1; $i<strlen($ident); $i++)
+    for($i = 1; $i < strlen($ident); $i++)
     {
         if(!ctype_alnum($ident[i]))
 	    {
