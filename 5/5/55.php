@@ -1,4 +1,4 @@
-﻿<?php 
+﻿<?php
   if(isset($_GET['ident'])){
     $ident=$_GET['ident'];
   }
