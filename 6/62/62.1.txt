@@ -1,0 +1,1 @@
+mysql> CREATE TABLE dvd (dvd_id int(11) UNSIGNED auto_increment, title VARCHAR(255), production_year YEAR, PRIMARY KEY(dvd_id));

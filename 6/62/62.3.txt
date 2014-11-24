@@ -1,0 +1,1 @@
+mysql> CREATE TABLE offer (offer_id int(11) UNSIGNED auto_increment, dvd_id int(11), customer_id int(11), offer_date date, return_date date, PRIMARY KEY(offer_id));
